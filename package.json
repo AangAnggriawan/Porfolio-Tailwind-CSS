@@ -1,0 +1,17 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch",
+    "dev1": "npx tailwindcss -i ./src/css/input.css -o ./blajar-1/output.css --watch",
+    "porfolio": "npx tailwindcss -i ./src/css/input.css -o ./porfolio/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.4"
+  }
+}
